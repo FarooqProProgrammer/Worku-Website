@@ -1,0 +1,38 @@
+
+:root {
+  --primary: #140D2D;
+  --font-krona-one: 'Krona One', sans-serif;
+  --font-inter: 'Inter Variable', sans-serif;
+  --font-plus-jakarta: 'Plus Jakarta Sans Variable', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Krona One';
+  src: url('./assets/fonts/Krona_One/KronaOne-Regular.ttf');
+}
+
+
+body {
+  font-family: var(--font-inter);
+}
+
+
+.plusJakartaSans {
+  font-family: var(--font-plus-jakarta);
+}
+
+
+/* 
+  COLOR CLASSE START 
+*/
+.primary-color {
+  color: var(--primary);
+}
+.primary-bg-color {
+  background-color: var(--primary);
+}
+
+/* 
+  COLOR CLASSE END 
+*/
