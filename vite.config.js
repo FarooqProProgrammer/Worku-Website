@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import pluginPurgeCss from "@mojojoejo/vite-plugin-purgecss";
+
+
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), pluginPurgeCss()],
   build: {
     outDir: "build",
     rollupOptions: {
