@@ -1,6 +1,7 @@
 
 :root {
   --primary: #140D2D;
+  --secondary:#e0ff00;
   --font-krona-one: 'Krona One', sans-serif;
   --font-inter: 'Inter Variable', sans-serif;
   --font-plus-jakarta: 'Plus Jakarta Sans Variable', sans-serif;
@@ -22,6 +23,10 @@ body {
   font-family: var(--font-plus-jakarta);
 }
 
+.koranOne {
+  font-family:var(--font-krona-one);
+}
+
 
 /* 
   COLOR CLASSE START 
@@ -31,6 +36,14 @@ body {
 }
 .primary-bg-color {
   background-color: var(--primary);
+}
+
+
+.secondary-color {
+  color: var(--secondary);
+}
+.secondary-bg-color { 
+  background-color: var(--secondary) !important;
 }
 
 /* 

@@ -1,0 +1,64 @@
+.timeLineCard {
+    border-radius: 5px;
+    width: 100%;
+    height: 318px;
+    background: #f2f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10;
+    transition: all 0.7s ease-in-out;
+}
+
+.timeLineCard .timeLineIcon {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+
+.timeLineCard .timeLineTitle {
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 114%;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000;
+}
+
+
+.timeLineCard p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    color: #000;
+}
+
+.timeLineCard:hover { 
+    background-color: black;
+}
+
+
+.timeLineCard:hover .timeLineIcon {
+    background-color: white;
+} 
+
+.timeLineCard:hover .timeLineIcon svg path {
+    fill: black;
+}
+
+.timeLineCard:hover .timeLineTitle { 
+    color: white;
+}
+
+.timeLineCard:hover p { 
+    color: white;
+}
